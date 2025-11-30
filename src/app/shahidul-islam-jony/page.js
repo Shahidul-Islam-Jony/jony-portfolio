@@ -1,11 +1,8 @@
 import Footer from "@/components/Footer/Footer";
-import AboutMe from "@/components/Home/AboutMe/AboutMe";
-import Banner from "@/components/Home/Banner/Banner";
-import ContactMe from "@/components/Home/ContactMe/ContactMe";
 import ParticleJs from "@/components/Home/ParticleJs/ParticleJs";
-import Skills from "@/components/Home/Skills/Skills";
 import Navbar from "@/components/Navbar/Navbar";
 import React from "react";
+import Jony from "@/components/Jony/Jony";
 
 export const metadata = {
   title:
@@ -49,18 +46,15 @@ export const metadata = {
   ],
 };
 
-const Home = () => {
+const shahidulIslamJony = () => {
   return (
     <div>
-      <ParticleJs />
+      <ParticleJs/>
       <Navbar />
-      <Banner />
-      <AboutMe />
-      <Skills />
-      <ContactMe />
+      <Jony/>
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default shahidulIslamJony;
