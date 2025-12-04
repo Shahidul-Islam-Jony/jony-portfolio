@@ -6,7 +6,7 @@ import React from 'react';
 
 export const metadata = {
   title:
-    "Shahidul Islam Jony – Owner of Sijma BD | Web Developer & Digital Marketer",
+    "Shahidul Islam – Owner of Sijma BD | Web Developer & Digital Marketer",
   description:
     "Shahidul Islam Jony is the owner and creator of Sijma BD, a modern Bangladeshi e-commerce platform. He holds a BSc degree in Physics. Shahidul Islam is also a Web Developer and Digital Marketer.",
   keywords: [

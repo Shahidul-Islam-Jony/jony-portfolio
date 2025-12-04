@@ -9,7 +9,7 @@ const ContactMe = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 px-10">
                 <div className='text-white'>
                     <h3 className='text-3xl text-center border-b-8 border-dotted w-fit p-7 font-semibold mb-4'>ACHIVEMENTS</h3>
-                    <p>1.Web Developmet Certificate from PH</p>
+                    <p>1.Web Development Certificate from PH</p>
                     <p>2.Digital Marketing Certificate from FSD</p>
                     <p>3.</p>
                 </div>
@@ -31,15 +31,15 @@ const ContactMe = () => {
                     <h3 className='text-3xl text-white text-center border-b-8 mb-7 border-dotted w-fit p-7 font-semibold'>MORE WAYS TO CONTACT</h3>
                     <div className=" grid grid-cols-3 text-5xl justify-center items-center">
                         <div className="flex flex-col gap-4">
-                          <Link href='https://www.facebook.com/profile.php?id=100007891637711'><FaFacebook className="text-blue-800" /></Link>
-                            <Link href=''><FaLinkedin className="text-white" /></Link>
+                          <Link href='https://web.facebook.com/shahidul.islam.jonny'><FaFacebook className="text-blue-800" /></Link>
+                            <Link href='https://www.linkedin.com/in/shahidul-islam-jony/'><FaLinkedin className="text-blue-500" /></Link>
                         </div>
                         <div className="flex flex-col gap-4">
                             <Link href=''><FaTwitter className="text-blue-800" /></Link>
                             <Link href=''><SiGmail className="text-orange-800" /></Link>
                         </div>
                         <div className="flex flex-col gap-4">
-                           <Link href=''><FaGithub className="text-white" /></Link>
+                           <Link href='https://github.com/Shahidul-Islam-Jony'><FaGithub className="text-white" /></Link>
                         </div>
                     </div>
                 </div>

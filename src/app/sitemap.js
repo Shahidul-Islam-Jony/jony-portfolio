@@ -11,7 +11,7 @@ export default async function sitemap() {
     {
       url: `https://sijma.store/shahidul-islam-jony`,
       lastModified: new Date(),
-      changeFrequency: "monthly",
+      changeFrequency: "weekly",
       priority: 0.8,
     },
     {

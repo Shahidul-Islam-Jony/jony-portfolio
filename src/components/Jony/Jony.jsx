@@ -5,17 +5,17 @@ import shahidul from '../../assets/images/Shahidul-Islam-Jony.png'
 const Jony = () => {
   return (
     <div className="relative">
-      <div className="min-h-screen z-50 flex justify-evenly items-center">
+      <div className="min-h-screen z-50 flex flex-col md:flex-row justify-evenly items-center">
         <div>
           <Image
-            className="z-50 rounded-2xl"
+            className="z-50 p-2 rounded-2xl"
             src={shahidul}
             width={500}
             height={500}
             alt="shahidul islam jony"
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-full p-2 md:w-1/2">
           <p className="text-lg text-white">
             <span className="text-5xl font-bold">Hi,</span> I’m{" "}
             <span className="font-bold text-xl">Shahidul Islam Jony</span>, the
