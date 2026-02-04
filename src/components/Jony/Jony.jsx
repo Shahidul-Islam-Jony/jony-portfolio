@@ -12,7 +12,7 @@ const Jony = () => {
             src={shahidul}
             width={500}
             height={500}
-            alt="shahidul islam jony"
+            alt="shahidul islam jony | sijmabd owner"
           />
         </div>
         <div className="w-full p-2 md:w-1/2">
@@ -20,9 +20,9 @@ const Jony = () => {
             <span className="text-5xl font-bold">Hi,</span> I’m{" "}
             <span className="font-bold text-xl">Shahidul Islam Jony</span>, the
             owner and creator of{" "}
-            <span className="font-bold text-xl">Sijma BD.</span> I’m a
+            <span className="font-bold text-xl"><a href="https://www.sijmabd.com">Sijma BD</a>.</span> I’m a
             passionate web developer who loves building useful, modern, and
-            user-friendly digital products. Sijma BD is my own e-commerce
+            user-friendly digital products. <a href="https://www.sijmabd.com">Sijma BD</a> is my own e-commerce
             project, where I am working to bring all kinds of village products,
             daily essentials, and modern items together on one trusted platform.{" "}
             <br />
@@ -32,7 +32,7 @@ const Jony = () => {
             get a smooth shopping experience and sellers get a reliable place to
             grow. <br />
             <br /> I enjoy learning new technologies step by step, improving my
-            skills every day, and turning ideas into real projects. Sijma BD is
+            skills every day, and turning ideas into real projects. <a href="https://www.sijmabd.com">Sijma BD</a> is
             one of my biggest dreams, and I’m working hard to make it a
             successful and reliable brand in Bangladesh.
           </p>

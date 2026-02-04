@@ -56,6 +56,30 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Structured Data for Google Knowledge Graph */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Shahidul Islam Jony",
+              image: "https://i.ibb.co.com/M5jS9zyX/Shahidul-Islam-Jony-1.jpg",
+              jobTitle: "Owner",
+              worksFor: {
+                "@type": "Organization",
+                name: "SijmaBD",
+                url: "https://sijmabd.com",
+              },
+              sameAs: [
+                "https://www.linkedin.com/in/shahidul-islam-jony",
+                "https://web.facebook.com/shahidul.islam.jony13",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
