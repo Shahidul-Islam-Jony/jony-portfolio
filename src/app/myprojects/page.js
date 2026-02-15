@@ -1,8 +1,8 @@
-import ParticleJs from '@/components/Home/ParticleJs/ParticleJs';
-import Banner from '@/components/MyProjects/Banner/Banner';
-import Projects from '@/components/MyProjects/Projects/Projects';
-import Navbar from '@/components/Navbar/Navbar';
-import React from 'react';
+import ParticleJs from "@/components/Home/ParticleJs/ParticleJs";
+import Banner from "@/components/MyProjects/Banner/Banner";
+import Projects from "@/components/MyProjects/Projects/Projects";
+import Navbar from "@/components/Navbar/Navbar";
+import React from "react";
 
 export const metadata = {
   title:
@@ -12,6 +12,8 @@ export const metadata = {
   keywords: [
     "Shahidul Islam Jony",
     "Shahidul Islam",
+    "Shohidul Islam",
+    "Shohidul Islam Jony",
     "শহিদুল ইসলাম জনি",
     "জনি",
     "শহিদুল ইসলাম",
@@ -41,20 +43,20 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "Shahidul Islam | Shahidul Islam Jony | SIJMA BD | sijmabd",
+      name: "Shahidul Islam | Shahidul Islam Jony | SIJMA BD | sijmabd | Shohidul Islam | Shohidul Islam Jony | জনি । শহিদুল ইসলাম । শহিদুল ইসলাম জনি ",
     },
   ],
 };
 
 const myProjects = () => {
-    return (
-        <div className='mx-auto'>
-            <ParticleJs/>
-            <Navbar/>
-            <Banner/>
-            <Projects/>
-        </div>
-    );
+  return (
+    <div className="mx-auto">
+      <ParticleJs />
+      <Navbar />
+      <Banner />
+      <Projects />
+    </div>
+  );
 };
 
 export default myProjects;

@@ -19,6 +19,8 @@ export const metadata = {
   keywords: [
     "Shahidul Islam Jony",
     "Shahidul Islam",
+    "Shohidul Islam",
+    "Shohidul Islam Jony",
     "শহিদুল ইসলাম জনি",
     "জনি",
     "শহিদুল ইসলাম",
@@ -48,7 +50,7 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "Shahidul Islam | Shahidul Islam Jony | SIJMA BD | sijmabd",
+      name: "Shahidul Islam | Shahidul Islam Jony | SIJMA BD | sijmabd | Shohidul Islam | Shohidul Islam Jony | জনি । শহিদুল ইসলাম । শহিদুল ইসলাম জনি ",
     },
   ],
 };
@@ -75,6 +77,7 @@ export default function RootLayout({ children }) {
               sameAs: [
                 "https://www.linkedin.com/in/shahidul-islam-jony",
                 "https://web.facebook.com/shahidul.islam.jony13",
+                "https://web.facebook.com/shahidul.islam.jonny",
               ],
             }),
           }}

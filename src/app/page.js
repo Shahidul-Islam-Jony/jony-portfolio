@@ -15,6 +15,8 @@ export const metadata = {
   keywords: [
     "Shahidul Islam Jony",
     "Shahidul Islam",
+    "Shohidul Islam",
+    "Shohidul Islam Jony",
     "শহিদুল ইসলাম জনি",
     "জনি",
     "শহিদুল ইসলাম",
@@ -44,7 +46,7 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "Shahidul Islam | Shahidul Islam Jony | SIJMA BD | sijmabd",
+      name: "Shahidul Islam | Shahidul Islam Jony | SIJMA BD | sijmabd | Shohidul Islam | Shohidul Islam Jony | জনি । শহিদুল ইসলাম । শহিদুল ইসলাম জনি ",
     },
   ],
 };

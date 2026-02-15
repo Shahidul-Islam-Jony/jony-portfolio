@@ -9,9 +9,10 @@ const Footer = () => {
                 <Link href='#skills'>Skills</Link>
                 <Link href='#aboutMe'>About Me</Link>
                 <Link href='#contactMe'>Contact Me</Link>
+                <Link href='https://www.sijmabd.com'>Sijma BD</Link>
             </div>
             <div>
-                <p className="md:mr-4">&copy;2023.Developed by <span className="text-lg text-red-600">&#9829;</span> Shahidul Islam.</p>
+                <p className="md:mr-4">&copy;2023.Developed by <span className="text-lg text-red-600">&#9829;</span> Shahidul Islam Jony.</p>
             </div>
         </div>
     );
