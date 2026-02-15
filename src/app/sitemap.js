@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = "https://sijma.store";
+  const baseUrl = "https://www.sijma.store";
 
   return [
     {
